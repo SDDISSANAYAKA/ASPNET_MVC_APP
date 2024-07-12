@@ -11,6 +11,12 @@ namespace ASPNET_MVC_APP.Controllers
             { Name = "Sif", Age = 2};
             return View(doggo);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         public String Hello()
         {
             return "Who's there?";
